@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17555" started-at="2018-02-28T05:13:45Z" finished-at="2018-02-28T05:14:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17555" started-at="2018-02-28T05:13:45Z" finished-at="2018-02-28T05:14:02Z">
+      <class name="test.philips.com.testsuite.LoginTestCases">
+        <test-method status="PASS" signature="readConfigProperties()[pri:0, instance:test.philips.com.testsuite.LoginTestCases@5474c6c]" name="readConfigProperties" is-config="true" duration-ms="11" started-at="2018-02-28T10:43:41Z" finished-at="2018-02-28T10:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfigProperties -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.philips.com.testsuite.LoginTestCases@5474c6c]" name="setUp" is-config="true" duration-ms="3848" started-at="2018-02-28T10:43:41Z" depends-on-methods="test.philips.com.utils.Init.readConfigProperties" finished-at="2018-02-28T10:43:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:test.philips.com.testsuite.LoginTestCases@5474c6c]" name="beforeTest" is-config="true" duration-ms="220" started-at="2018-02-28T10:43:45Z" finished-at="2018-02-28T10:43:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:test.philips.com.testsuite.LoginTestCases@5474c6c]" name="loginTest" duration-ms="17198" started-at="2018-02-28T10:43:45Z" finished-at="2018-02-28T10:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:test.philips.com.testsuite.LoginTestCases@5474c6c]" name="afterTest" is-config="true" duration-ms="122" started-at="2018-02-28T10:44:02Z" finished-at="2018-02-28T10:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.philips.com.testsuite.LoginTestCases@5474c6c]" name="tearDown" is-config="true" duration-ms="1741" started-at="2018-02-28T10:44:02Z" finished-at="2018-02-28T10:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.philips.com.testsuite.LoginTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
